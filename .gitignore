@@ -11,6 +11,7 @@ web-build/
 *.mobileprovision
 *.orig.*
 .env
+.api
 .metro-health-check*
 npm-debug.*
 yarn-error.*

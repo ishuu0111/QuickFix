@@ -15,7 +15,7 @@ import { useApp } from "../context/AppContext";
 import { Header, Card } from "../components";
 import ProblemUploader from "../components/ProblemUploader";
 import { CONTENT_MAX_WIDTH } from "../utils/responsive";
-import { sendChatMessage } from "../api/api";
+import { sendChatMessage } from "../services/api.js";
 const isWeb = Platform.OS === "web";
 
 const LANGUAGES = [
