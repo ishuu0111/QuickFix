@@ -1,0 +1,1 @@
+This folder is reserved for images assets. The app currently ships with vector-icon + gradient based illustrations (see src/components/Illustration.js) so no binary assets are required to run the project.

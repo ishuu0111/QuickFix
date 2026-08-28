@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "QuickFix",
+    "slug": "quickfix",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "description": "Trusted home services, one tap away.",
+    "splash": {
+      "backgroundColor": "#0D6EFD"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quickfix.app",
+      "config": {
+        "googleMapsApiKey": "YOUR_GOOGLE_MAPS_API_KEY"
+      }
+    },
+    "android": {
+      "package": "com.quickfix.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0D6EFD"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_API_KEY"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/quickfiix.jpeg",
+      "name": "QuickFix",
+      "shortName": "QuickFix",
+      "description": "Trusted home services, one tap away.",
+      "lang": "en",
+      "themeColor": "#0D6EFD",
+      "backgroundColor": "#F8FAFC"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0D6EFD"
+        }
+      ]
+    ]
+  }
+}
